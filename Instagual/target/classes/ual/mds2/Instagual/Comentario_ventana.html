@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="vaadin-version" content="8.1.5">
+ </head>
+ <body>
+  <vaadin-vertical-layout spacing="false" size-full margin="false">
+   <vaadin-horizontal-layout primary-style-name="v-horizontallayout-v" spacing="false" size-full _id="horizontalLayoutUsuarioComentador">
+    <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutImagenUsuario" :middle :center :expand>
+     <vaadin-image primary-style-name="v-image-v" source="https://i.pinimg.com/736x/cf/98/a2/cf98a2a2d44c811dd3dee927e21256f6--dont-judge-me-minions-love.jpg" size-full _id="imageNombreUsuario" :middle :center></vaadin-image>
+    </vaadin-vertical-layout>
+    <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutNombreUsuario" :middle :center :expand="3">
+     <vaadin-button size-full plain-text _id="nativeButtonUsuario" :expand="2">
+       nombreUsuario 
+     </vaadin-button>
+     <vaadin-label width="90%" height-full plain-text _id="labelDescripPublicacion12" :center :expand="6">
+       Yo creo que no se que y no se cuanto cuando esto es tal y cual 
+     </vaadin-label>
+    </vaadin-vertical-layout>
+    <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutIconoMegustaComentarios" :middle :center :expand>
+     <vaadin-button icon="fonticon://Vaadin-Icons/e77f" style-name="icon-only" width="80%" height="80%" plain-text _id="buttonDarMeGustaComentario" :middle :center :expand="0.4">
+       Button 
+     </vaadin-button>
+     <vaadin-label width="50%" height-full plain-text _id="numMegusta" :middle :center :expand="0.2">
+       999 
+     </vaadin-label>
+     <vaadin-button icon="fonticon://Vaadin-Icons/e91c" width="80%" height="80%" plain-text _id="buttonEliminar" :middle :center :expand="0.4"></vaadin-button>
+    </vaadin-vertical-layout>
+   </vaadin-horizontal-layout>
+  </vaadin-vertical-layout>
+ </body>
+</html>

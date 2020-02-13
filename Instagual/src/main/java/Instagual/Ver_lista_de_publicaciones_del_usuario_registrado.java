@@ -1,0 +1,5 @@
+package Instagual;
+
+public class Ver_lista_de_publicaciones_del_usuario_registrado extends Ver_lista_de_publicaciones_del_usuario {
+	public Ver_perfil_de_usuario_vista_usuario_registrado _ver_perfil_de_usuario_vista_usuario_registrado;
+}

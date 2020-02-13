@@ -1,0 +1,6 @@
+package Instagual;
+
+public class Usuario_que_dio_me_gusta {
+	public Ver_lista_de_quien_dio_me_gusta _ver_lista_de_quien_dio_me_gusta;
+	//public Ver_perfil_de_usuario_vista_no_registrado_lista_de_usuarios_que_dieron_me_gusta _ver_perfil_de_usuario_vista_no_registrado_lista_de_usuarios_que_dieron__me_gusta_;
+}

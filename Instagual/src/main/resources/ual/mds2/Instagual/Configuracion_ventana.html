@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="vaadin-version" content="8.1.5">
+ </head>
+ <body>
+  <vaadin-vertical-layout spacing="false" size-full margin="false">
+   <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutPantallaBase" :expand="10">
+    <vaadin-horizontal-layout spacing="false" size-full _id="horizontalLayoutMenuSuperior" :expand>
+     <vaadin-label width="50%" height="50%" plain-text _id="labelConfiguracion" :middle :center :expand="3">
+       Configuración 
+     </vaadin-label>
+    </vaadin-horizontal-layout>
+    <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutAjutesNotificacionesBase" :expand="3">
+     <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutAjusteNotificacionesContenido" :expand>
+      <vaadin-label width="60%" height-full plain-text _id="labelAjustes" :center :expand="0.7">
+        Ajustes de notificaciones y privacidad 
+      </vaadin-label>
+      <vaadin-horizontal-layout primary-style-name="v-horizontallayout-v" spacing="false" size-full _id="horizontalLAyoutSelecciones" :center :expand="2">
+       <vaadin-vertical-layout primary-style-name="v-verticallayout-" spacing="false" size-full margin="false" _id="verticalLayoutAjustes1" :expand>
+        <vaadin-check-box caption="Todas" size-full _id="todas"></vaadin-check-box>
+        <vaadin-check-box caption="Me gusta" size-full _id="megusta"></vaadin-check-box>
+        <vaadin-check-box caption="Comentarios" size-full _id="comentarios"></vaadin-check-box>
+       </vaadin-vertical-layout>
+       <vaadin-vertical-layout primary-style-name="v-verticallayout-" spacing="false" size-full margin="false" _id="verticalLayoutAjustes2" :expand="1.5">
+        <vaadin-check-box caption="Seguir" size-full _id="seguir"></vaadin-check-box>
+        <vaadin-check-box caption="Hacer privada" size-full _id="privada"></vaadin-check-box>
+        <vaadin-check-box caption="Ocultar seguidores/seguidos" size-full _id="ocultarss"></vaadin-check-box>
+       </vaadin-vertical-layout>
+      </vaadin-horizontal-layout>
+      <vaadin-button width="80%" height-full plain-text _id="guardarConfig" :middle :center :expand="0.5">
+        Guardar configuracion 
+      </vaadin-button>
+     </vaadin-vertical-layout>
+    </vaadin-vertical-layout>
+    <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutBloqueadosDDBaja" :expand="2">
+     <vaadin-button width="80%" height="80%" plain-text _id="buttonListaDeBloqueados" :middle :center>
+       Ver lista de bloqueados 
+     </vaadin-button>
+     <vaadin-button width="80%" height="80%" plain-text _id="buttonDarseDeBaja" :center>
+       Darse de baja 
+     </vaadin-button>
+    </vaadin-vertical-layout>
+    <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutCerrarSesion" :expand>
+     <vaadin-button width="80%" height="80%" plain-text _id="buttonCerrarSesion" :middle :center>
+       Cerrar sesion 
+     </vaadin-button>
+    </vaadin-vertical-layout>
+   </vaadin-vertical-layout>
+  </vaadin-vertical-layout>
+ </body>
+</html>

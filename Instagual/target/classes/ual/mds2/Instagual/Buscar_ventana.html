@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="vaadin-version" content="8.1.5">
+ </head>
+ <body>
+  <vaadin-vertical-layout spacing="false" size-full margin="false">
+   <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutPantallaBase">
+    <vaadin-horizontal-layout spacing="false" size-full _id="horizontalLayoutBuscarTexto" :middle :center :expand>
+     <vaadin-button icon="fonticon://Vaadin-Icons/e805" style-name="icon-only" width="80%" height="80%" plain-text _id="buttonBuscar" :middle :center :expand="2">
+       Button 
+     </vaadin-button>
+     <vaadin-text-field primary-style-name="v-textfield-search" size-full value="Escriba aquí para buscar..." _id="textFieldBuscar" :center :expand="7"></vaadin-text-field>
+     <vaadin-button visible="false" width="80%" height="80%" plain-text _id="buttonCerrarSesionAd" :middle :center :expand="3">
+       Cerrar sesion 
+     </vaadin-button>
+    </vaadin-horizontal-layout>
+    <vaadin-horizontal-layout size-full _id="horizontalLayoutSelection" :expand>
+     <vaadin-button width="80%" height="80%" plain-text _id="buttonUsuarios" :middle :center>
+       Usuarios 
+     </vaadin-button>
+     <vaadin-button width="80%" height="80%" plain-text _id="buttonPublicaciones" :middle :center>
+       Publicaciones 
+     </vaadin-button>
+    </vaadin-horizontal-layout>
+    <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutListaBusqueda1" :expand="7">
+     <vaadin-panel size-full _id="panelBusqueda">
+      <vaadin-vertical-layout margin-left="false" margin-right="false" _id="verticalLayoutListaBusqueda"></vaadin-vertical-layout>
+     </vaadin-panel>
+    </vaadin-vertical-layout>
+   </vaadin-vertical-layout>
+  </vaadin-vertical-layout>
+ </body>
+</html>

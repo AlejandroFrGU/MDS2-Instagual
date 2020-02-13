@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="vaadin-version" content="8.1.5">
+ </head>
+ <body>
+  <vaadin-vertical-layout spacing="false" size-full margin="false">
+   <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutPantallaBase">
+    <vaadin-horizontal-layout primary-style-name="v-horizontallayout-v" spacing="false" size-full _id="horizontalLayoutMenuSuperiorVerPerfil" :expand="0.7">
+     <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutAtrasVerPerfil" :right></vaadin-vertical-layout>
+     <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutConfiguracionVerPerfil" :right>
+      <vaadin-button icon="fonticon://Vaadin-Icons/e764" style-name="icon-only" width="57%" height-full plain-text _id="buttonConfiguracionVerPerfil" :right>
+        Button 
+      </vaadin-button>
+     </vaadin-vertical-layout>
+    </vaadin-horizontal-layout>
+    <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutVerPerfilDatosSBE" :expand="3">
+     <vaadin-horizontal-layout spacing="false" size-full _id="horizontalLayoutDatosPerfil" :expand="5">
+      <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" width="90%" height="90%" margin="false" _id="verticalLayoutImagenPerfil" :middle :center :expand>
+       <vaadin-image primary-style-name="v-image-v" source="http://personal.psu.edu/xqz5228/jpg.jpg" size-full _id="imagePerfil" :middle :center></vaadin-image>
+      </vaadin-vertical-layout>
+      <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutInformacionEditarPerfil" :expand="1.5">
+       <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutSeguidoresSeguidos">
+        <vaadin-label width="85%" height-full plain-text _id="labelSeguidores" :middle :center>
+          999 Seguidores 
+        </vaadin-label>
+        <vaadin-label width="85%" height-full plain-text _id="labelSeguidos" :middle :center>
+          999 Seguidos 
+        </vaadin-label>
+       </vaadin-vertical-layout>
+       <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutEditarPerfil" :bottom :center>
+        <vaadin-button width="90%" height="80%" plain-text _id="buttonEditarPerfil" :middle :center>
+          Editar perfil 
+        </vaadin-button>
+        <vaadin-button width-full height="80%" plain-text _id="buttonEliminarPerfil" :middle :center>
+          Eliminar perfil 
+        </vaadin-button>
+       </vaadin-vertical-layout>
+      </vaadin-vertical-layout>
+      <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutAccionesVerPerfil" :expand>
+       <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutSeguir">
+        <vaadin-button width-full height="80%" plain-text _id="buttonSeguir" :middle :center>
+          Seguir 
+        </vaadin-button>
+       </vaadin-vertical-layout>
+       <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutBloquear">
+        <vaadin-button width-full height="80%" plain-text _id="buttonBloquear" :middle :center>
+          Bloquear 
+        </vaadin-button>
+       </vaadin-vertical-layout>
+      </vaadin-vertical-layout>
+     </vaadin-horizontal-layout>
+     <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutNombreUsuario" :expand>
+      <vaadin-label width="1005px" height-full plain-text _id="labelNombreDeUsuario">
+        NOMBREDEUSUARIO 
+      </vaadin-label>
+     </vaadin-vertical-layout>
+    </vaadin-vertical-layout>
+    <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutOpcionesMenu" :expand="1.5">
+     <vaadin-horizontal-layout primary-style-name="v-horizontallayout-v" spacing="false" size-full _id="horizontalLayoutOpcionesMenu">
+      <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" width="80%" height="80%" margin="false" _id="verticalLayoutMisActividades" :middle>
+       <vaadin-button icon="fonticon://Vaadin-Icons/e641" width="80%" height-full plain-text _id="menuActividades"></vaadin-button>
+      </vaadin-vertical-layout>
+      <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" width="80%" height="80%" margin="false" _id="verticalLayoutPublicaionesUsuario" :middle :center>
+       <vaadin-button icon="fonticon://Vaadin-Icons/e7ae" width="80%" height-full plain-text _id="menuPublicaciones"></vaadin-button>
+      </vaadin-vertical-layout>
+      <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" width="80%" height="80%" margin="false" _id="verticalLayoutPublicacionesUsuarioEtiquetado" :middle :right>
+       <vaadin-button icon="fonticon://Vaadin-Icons/e928" width="80%" height-full plain-text _id="menuEtiquetadas"></vaadin-button>
+      </vaadin-vertical-layout>
+     </vaadin-horizontal-layout>
+    </vaadin-vertical-layout>
+    <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutListas" :expand="5">
+     <vaadin-panel size-full _id="panelLista">
+      <vaadin-vertical-layout primary-style-name="v-verticallayout-v" margin="false" _id="verticalLayoutLista"></vaadin-vertical-layout>
+     </vaadin-panel>
+    </vaadin-vertical-layout>
+   </vaadin-vertical-layout>
+  </vaadin-vertical-layout>
+ </body>
+</html>

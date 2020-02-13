@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="vaadin-version" content="8.1.5">
+ </head>
+ <body>
+  <vaadin-vertical-layout spacing="false" width="400px" height="720px" margin="false">
+   <vaadin-vertical-layout primary-style-name="v-verticallayoutDE" size-full margin-bottom="false" _id="verticalLayoutDatosEntrada">
+    <vaadin-label style-name="h1" width="50%" height="40%" plain-text _id="labelInstagual" :middle :center>
+      Instagual 
+    </vaadin-label>
+    <vaadin-text-field style-name="large" width="80%" height="70%" value="Correo" _id="datosCorreo" :middle :center></vaadin-text-field>
+    <vaadin-password-field width="80%" height="70%" value="password" _id="datosPassword" :middle :center></vaadin-password-field>
+   </vaadin-vertical-layout>
+   <vaadin-vertical-layout primary-style-name="v-verticallayoutB" size-full margin-top="false" margin-bottom="false" _id="verticalLayoutBotones">
+    <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutIniciarSesion" :expand="2">
+     <vaadin-button width="70%" height-full plain-text _id="botonIniciarSesion" :middle :center>
+       Iniciar sesion 
+     </vaadin-button>
+    </vaadin-vertical-layout>
+    <vaadin-vertical-layout primary-style-name="v-verticallayout-v" size-full margin="false" _id="verticalLayoutIniciarSesionMovil" :expand="8">
+     <vaadin-button width="70%" height-full plain-text _id="botonRecuperarCuenta" :middle :center>
+       Recuperar cuenta 
+     </vaadin-button>
+     <vaadin-button width="80%" height-full plain-text _id="botonRecuperarPassword" :middle :center>
+       Recuperar contraseña 
+     </vaadin-button>
+     <vaadin-label style-name="large" width="70%" height-full plain-text _id="labelSinCuenta" :middle :center>
+       Si no tiene cuenta 
+     </vaadin-label>
+     <vaadin-button width="70%" height-full plain-text _id="botonRegistrarse" :middle :center>
+       Registrarse 
+     </vaadin-button>
+     <vaadin-button width="80%" height-full plain-text _id="botonEntrarInvitado" :middle :center>
+       Entrar como invitado 
+     </vaadin-button>
+    </vaadin-vertical-layout>
+   </vaadin-vertical-layout>
+  </vaadin-vertical-layout>
+ </body>
+</html>

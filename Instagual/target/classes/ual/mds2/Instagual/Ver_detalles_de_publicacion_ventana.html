@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="vaadin-version" content="8.1.5">
+ </head>
+ <body>
+  <vaadin-vertical-layout spacing="false" size-full margin="false">
+   <vaadin-horizontal-layout spacing="false" size-full _id="horizontalLayoutMenuSuperiorPublicacion" :expand="0.08">
+    <vaadin-label style-name="bold" width="50%" height="50%" plain-text _id="labelPublicacion" :middle :center :expand="2">
+      Publicación 
+    </vaadin-label>
+   </vaadin-horizontal-layout>
+   <vaadin-horizontal-layout spacing="false" size-full _id="horizontalLayoutPublicacionUsuario" :expand="0.15">
+    <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutImagenUsuario1" :expand="0.3">
+     <vaadin-image size-full _id="imagenPerfil"></vaadin-image>
+    </vaadin-vertical-layout>
+    <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutNombreUsuario1" :middle :expand="0.6">
+     <vaadin-button size-full plain-text _id="nombreUsuario">
+       nombreUsuario 
+     </vaadin-button>
+     <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutCompartir">
+      <vaadin-button width="80%" height="80%" plain-text _id="buttonCompartir" :middle :center>
+        Compartir 
+      </vaadin-button>
+     </vaadin-vertical-layout>
+     <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutEliminar">
+      <vaadin-button width="80%" height="80%" plain-text _id="buttonEliminarPublicacion" :middle :center>
+        Eliminar 
+      </vaadin-button>
+     </vaadin-vertical-layout>
+    </vaadin-vertical-layout>
+   </vaadin-horizontal-layout>
+   <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutListaElementos" :expand="0.6">
+    <vaadin-panel size-full _id="panelListaElementos">
+     <vaadin-horizontal-layout primary-style-name="v-horizontallayout-v" height-full _id="horizontalLayoutListaElementos"></vaadin-horizontal-layout>
+    </vaadin-panel>
+   </vaadin-vertical-layout>
+   <vaadin-horizontal-layout spacing="false" size-full _id="horizontalLayoutMeGustaComentarios" :expand="0.15">
+    <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutIconosMegustaComentarios" :expand>
+     <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutMegustaIcono">
+      <vaadin-button icon="fonticon://Vaadin-Icons/e77f" width="70%" height="70%" plain-text _id="meGusta" :middle :center></vaadin-button>
+     </vaadin-vertical-layout>
+     <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutComentariosIcono">
+      <vaadin-button icon="fonticon://Vaadin-Icons/e768" width="70%" height="70%" plain-text _id="verComentarios" :middle :center></vaadin-button>
+     </vaadin-vertical-layout>
+    </vaadin-vertical-layout>
+    <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutMegustaComentarios2" :expand="3">
+     <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutMegustaGente">
+      <vaadin-button width-full height="60%" plain-text _id="labelMegusta" :middle>
+        999 Me gusta: Paco, chato... 
+      </vaadin-button>
+     </vaadin-vertical-layout>
+     <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutVerComentarios">
+      <vaadin-label width-full height="50%" plain-text _id="labelVerComentarios" :middle>
+        Ver los comentarios 
+      </vaadin-label>
+     </vaadin-vertical-layout>
+    </vaadin-vertical-layout>
+   </vaadin-horizontal-layout>
+   <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutDescripcion" :expand="0.1">
+    <vaadin-horizontal-layout spacing="false" size-full>
+     <vaadin-label size-full plain-text _id="labelDescripcionPublicacion" :expand="7">
+       Descripcion de la publicacion 
+     </vaadin-label>
+     <vaadin-button icon="fonticon://Vaadin-Icons/e962" size-full plain-text _id="buttonEliminarMencion" :right :expand="1.4"></vaadin-button>
+    </vaadin-horizontal-layout>
+   </vaadin-vertical-layout>
+   <vaadin-vertical-layout spacing="false" size-full margin="false" _id="vlMencionados" :expand="0.05">
+    <vaadin-label size-full plain-text _id="mencionados">
+      Mencionados: 
+    </vaadin-label>
+   </vaadin-vertical-layout>
+  </vaadin-vertical-layout>
+ </body>
+</html>

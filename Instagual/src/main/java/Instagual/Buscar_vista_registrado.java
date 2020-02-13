@@ -1,0 +1,8 @@
+package Instagual;
+
+public class Buscar_vista_registrado extends Buscar {
+	public Menu_inferior _menu_inferior;
+	public Ver_detalles_de_publicacion_vista_publicacion_propia _ver_detalles_de_publicacion_vista_publicacion_propia;
+	public Ver_detalles_de_publicacion_vista_publicacion_etiquetado _ver_detalles_de_publicacion_vista_publicacion_etiquetado;
+	public Ver_detalles_de_publicacion_vista_usuario_registrado _ver_detalles_de_publicacion_vista_usuario_registrado;
+}

@@ -1,0 +1,5 @@
+package Instagual;
+
+public class Ver_lista_de_mis_actividades_admin extends Ver_lista_de_mis_actividades {
+	public Ver_perfil_de_usuario_vista_administrador _ver_perfil_de_usuario_vista_administrador;
+}

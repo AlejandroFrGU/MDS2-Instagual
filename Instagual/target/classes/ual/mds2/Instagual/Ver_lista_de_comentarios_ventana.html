@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="vaadin-version" content="8.1.5">
+ </head>
+ <body>
+  <vaadin-vertical-layout spacing="false" size-full margin="false">
+   <vaadin-horizontal-layout spacing="false" size-full _id="horizontalLayoutMenuSuperiorComentarios" :expand="0.7">
+    <vaadin-button icon="fonticon://Vaadin-Icons/e622" width="70%" height-full plain-text _id="bAtras" :center :expand="0.5"></vaadin-button>
+    <vaadin-label style-name="h2" width="90%" height="50%" plain-text _id="labelComentarios" :expand>
+      Comentarios 
+    </vaadin-label>
+   </vaadin-horizontal-layout>
+   <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutDescripcionPublicador" :expand="1.5">
+    <vaadin-horizontal-layout primary-style-name="v-horizontallayout-v" spacing="false" size-full _id="horizontalLayoutUsuarioComentador">
+     <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutImagenUsuario" :middle :center :expand>
+      <vaadin-image source="https://i.pinimg.com/736x/cf/98/a2/cf98a2a2d44c811dd3dee927e21256f6--dont-judge-me-minions-love.jpg" size-full _id="imageNombreUsuario" :middle :center></vaadin-image>
+     </vaadin-vertical-layout>
+     <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutNombreUsuario" :middle :center :expand="3">
+      <vaadin-button width="70%" height-full plain-text _id="nativeButtonUsuario" :expand="2">
+        nombreUsuario 
+      </vaadin-button>
+      <vaadin-label width="90%" height-full plain-text _id="labelDescripPublicacion12" :center :expand="6">
+        description 
+      </vaadin-label>
+     </vaadin-vertical-layout>
+     <vaadin-vertical-layout primary-style-name="v-verticallayout-v" spacing="false" size-full margin="false" _id="verticalLayoutIconoMegustaComentarios" :middle :center :expand>
+      <vaadin-button visible="false" icon="fonticon://Vaadin-Icons/e77f" style-name="icon-only" width="80%" height="80%" plain-text _id="buttonDarMeGustaComentario" :middle :center>
+        Button 
+      </vaadin-button>
+     </vaadin-vertical-layout>
+    </vaadin-horizontal-layout>
+   </vaadin-vertical-layout>
+   <vaadin-panel size-full _id="panelListaComentarios" :expand="3">
+    <vaadin-vertical-layout _id="listaComentarios"></vaadin-vertical-layout>
+   </vaadin-panel>
+   <vaadin-horizontal-layout spacing="false" size-full _id="horizontalLayoutEscribirComentario" :expand>
+    <vaadin-text-field size-full value="Comentario" _id="textFieldComentario" :expand="3"></vaadin-text-field>
+    <vaadin-button size-full plain-text _id="buttonPublicar" :expand="1.2">
+      Publicar 
+    </vaadin-button>
+   </vaadin-horizontal-layout>
+  </vaadin-vertical-layout>
+ </body>
+</html>

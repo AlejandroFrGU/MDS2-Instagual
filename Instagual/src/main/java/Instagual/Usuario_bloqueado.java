@@ -1,0 +1,6 @@
+package Instagual;
+
+public class Usuario_bloqueado {
+	public Ver_lista_de_usuarios_bloqueados _ver_lista_de_usuarios_bloqueados;
+	public Ver_perfil_de_usuario_vista_usuario_bloqueado _ver_perfil_de_usuario_vista_usuario_bloqueado;
+}

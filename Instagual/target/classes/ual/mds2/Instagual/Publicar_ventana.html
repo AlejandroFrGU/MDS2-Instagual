@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta name="vaadin-version" content="8.1.5">
+ </head>
+ <body>
+  <vaadin-vertical-layout spacing="false" size-full margin="false">
+   <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutPublicar" :expand="8">
+    <vaadin-horizontal-layout spacing="false" size-full _id="horizontalLayoutPublicarMenuSuperior" :expand>
+     <vaadin-button width="60%" height-full plain-text _id="buttonPublicar" :center>
+       Publicar 
+     </vaadin-button>
+    </vaadin-horizontal-layout>
+    <vaadin-vertical-layout spacing="false" size-full margin="false" _id="vLEtiqueta" :expand>
+     <vaadin-horizontal-layout size-full _id="hlEtiqueta">
+      <vaadin-label size-full plain-text _id="etiqueta" :expand="0.7">
+        Etiqueta 
+      </vaadin-label>
+      <vaadin-text-field size-full value="Etiqueta" _id="tFEtiqueta" :expand="3"></vaadin-text-field>
+     </vaadin-horizontal-layout>
+    </vaadin-vertical-layout>
+    <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutImagenesYLista" :expand="8">
+     <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutListaElementos" :expand="0.3">
+      <vaadin-panel size-full _id="panelListaImagenesVideos">
+       <vaadin-horizontal-layout height-full _id="hlImagenesVideos"></vaadin-horizontal-layout>
+      </vaadin-panel>
+     </vaadin-vertical-layout>
+    </vaadin-vertical-layout>
+   </vaadin-vertical-layout>
+   <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutGaleria" :expand>
+    <vaadin-horizontal-layout spacing="false" size-full _id="hLGaleria">
+     <vaadin-horizontal-layout spacing="false" size-full _id="hLGaleria1" :expand>
+      <vaadin-button size-full plain-text _id="buttonSubir">
+        Subir 
+      </vaadin-button>
+     </vaadin-horizontal-layout>
+     <vaadin-horizontal-layout spacing="false" size-full _id="hLGaleria2" :expand="3">
+      <vaadin-text-field description="Paste Url here..." size-full value="Paste Url here..." _id="uRLFoto" :middle></vaadin-text-field>
+     </vaadin-horizontal-layout>
+    </vaadin-horizontal-layout>
+   </vaadin-vertical-layout>
+   <vaadin-vertical-layout spacing="false" size-full margin="false" _id="verticalLayoutDescripcion" :expand="2">
+    <vaadin-vertical-layout spacing="false" size-full margin="false" _id="vlMenciones" :expand="0.5">
+     <vaadin-label width="10%" height-full plain-text _id="labelMenciones" :middle :center :expand="0.5">
+       Menciones 
+     </vaadin-label>
+     <vaadin-horizontal-layout primary-style-name="v-horizontallayout-v" spacing="false" size-full _id="hlMenciones" :expand="0.5">
+      <vaadin-text-field size-full maxlength="9" value="Mencion1" _id="mencion1"></vaadin-text-field>
+      <vaadin-text-field size-full maxlength="9" value="Mencion2" _id="mencion2"></vaadin-text-field>
+     </vaadin-horizontal-layout>
+    </vaadin-vertical-layout>
+    <vaadin-text-field size-full value="descripcion" _id="tfDescripcion" :expand="0.5"></vaadin-text-field>
+   </vaadin-vertical-layout>
+  </vaadin-vertical-layout>
+ </body>
+</html>

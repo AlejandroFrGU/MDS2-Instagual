@@ -1,0 +1,7 @@
+package Instagual;
+
+public class Buscar_vista_admin extends Buscar {
+	public Usuario_administrador _usuario_administrador;
+	public Ver_detalles_de_publicacion_admin _ver_detalles_de_publicacion_admin;
+	public Ver_perfil_de_usuario_vista_administrador _ver_perfil_de_usuario_vista_administrador;
+}

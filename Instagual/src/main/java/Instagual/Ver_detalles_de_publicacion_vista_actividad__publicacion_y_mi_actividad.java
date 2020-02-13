@@ -1,0 +1,12 @@
+package Instagual;
+
+public class Ver_detalles_de_publicacion_vista_actividad__publicacion_y_mi_actividad {
+	public Mi_actividad _mi_actividad;
+	public Ver_detalles_de_publicacion_vista_usuario_registrado _ver_detalles_de_publicacion_vista_usuario_registrado;
+	public Ver_detalles_de_publicacion_vista_publicacion_etiquetado _ver_detalles_de_publicacion_vista_publicacion_etiquetado;
+	public Ver_perfil_de_usuario_vista_usuario_registrado _ver_perfil_de_usuario_vista_usuario_registrado;
+
+	public void VerDetallesDePublicacion() {
+		throw new UnsupportedOperationException();
+	}
+}
